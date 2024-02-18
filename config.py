@@ -47,8 +47,8 @@ AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
 
 
 # Get this credentials from https://developer.spotify.com/dashboard
-SPOTIFY_CLIENT_ID = getenv("SPOTIFY_CLIENT_ID", "bcfe26b0ebc3428882a0b5fb3e872473"")
-SPOTIFY_CLIENT_SECRET = getenv("SPOTIFY_CLIENT_SECRET", "907c6a054c214005aeae1fd752273cc4"")
+SPOTIFY_CLIENT_ID = getenv("SPOTIFY_CLIENT_ID", "bcfe26b0ebc3428882a0b5fb3e872473")
+SPOTIFY_CLIENT_SECRET = getenv("SPOTIFY_CLIENT_SECRET", "907c6a054c214005aeae1fd752273cc4")
 
 
 # Maximum limit for fetching playlist's track from youtube, spotify, apple links.
@@ -78,10 +78,10 @@ confirmer = {}
 
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://te.legra.ph/file/25efe6aa029c6baea73ea.jpg"
+    "START_IMG_URL", "https://te.legra.ph/file/15a3e9a40cd6315b1814f.jpg"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://te.legra.ph/file/b8a0c1a00db3e57522b53.jpg"
+    "PING_IMG_URL", "https://te.legra.ph/file/e60627f9cce8ab5a8283f.jpg"
 )
 PLAYLIST_IMG_URL = "https://te.legra.ph/file/4ec5ae4381dffb039b4ef.jpg"
 STATS_IMG_URL = "https://te.legra.ph/file/e906c2def5afe8a9b9120.jpg"
